@@ -22,3 +22,22 @@
 //     console.log(i);
 //   }
 // }
+
+// Wild Wild Life answered
+const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
+const sharky = ["Sharky", "shark", 20, "Left Coast"]
+const plantee = ["Plantee", "plant",  5000 , "Mordor"]
+const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
+const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
+// 1.
+plantee.splice(2,1,5001)
+console.table(plantee);
+// 2.
+wolfy.splice(3,1,'Gotham City');
+console.table(wolfy);
+// 3.
+dart.splice(3,0,'Hawkins');
+console.table(dart);
+// 4.
+wolfy.splice(0,1,'Gameboy');
+console.table(wolfy);

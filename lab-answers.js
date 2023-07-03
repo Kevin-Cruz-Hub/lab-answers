@@ -42,8 +42,36 @@
 // wolfy.splice(0,1,'Gameboy');
 // console.table(wolfy);
 
-//Yell at the Ninja Turtles answered
-const Turtles = ['Donatello','Leonardo','Raphael','Michaelangelo']
-for(let t of Turtles){
-    console.log(t.toUpperCase())
-}
+// //Yell at the Ninja Turtles answered
+// const Turtles = ['Donatello','Leonardo','Raphael','Michaelangelo']
+// for(let t of Turtles){
+//     console.log(t.toUpperCase())
+// }
+
+// Methods Revisited answered
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 
+'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 
+'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 
+'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 
+'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+
+// console.log(`${favMovies[8]}: is on the 8th index`);
+// // 1.
+// favMovies.sort();
+// console.table(favMovies)
+// // 2.   I called the favMovies array and gave it a method to sort the items, in this case its in alphabetical order.
+// // 3.
+// let Q3 = favMovies.pop();
+// console.log(Q3);
+// // 4.
+// favMovies.push('Guardians of the Galaxy');
+// console.table(favMovies);
+// // 5.
+// const Q5 = [];
+// for(let i = favMovies.length - 1; i > 0; i--){
+//     Q5.push(favMovies[i]);
+// }
+// console.table(Q5);
+// .6 
+const firstElement = favMovies.shift();
+console.log(firstElement)
